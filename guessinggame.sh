@@ -1,5 +1,5 @@
 !/usr/bin/env bash
-echo"Type no.of files in the current directory:"
+echo "Type no.of files in the current directory:"
 read data
 right_value=$(ls | wc -l)
 nooffiles data right_value
