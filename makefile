@@ -1,6 +1,5 @@
- README.md
-
-	touch README.md
+ README.md:
+        touch README.md
 	echo "Title of the project: The Guessing Game" >> README.md
 	echo "\The data and the time at which the make was run" >>README.md
 	date >> README.md
