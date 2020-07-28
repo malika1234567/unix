@@ -1,23 +1,20 @@
 !/usr/bin/env bash
-
-function guess(){
-    true_ans=$(ls -l |grep "^-"|wc -l)
-    while true;
-    do
-        echo "pleas enter your guess"
-        read  number
-        if [ $number -lt $true_ans ]
-        then
-            echo "your guess is Less then the true number"
-        elif [ $number -gt $true_ans ]
-        then
-            echo "your guess is Greater then the true number"
-        else
-            echo " congratulation,you are right!"
-        break;
-        fi
-    done
+echo"Type no.of files in the current directory:"
+read data
+right_value=$(ls | wc -l)
+nooffiles data right_value
+function nooffiles{
+while[[ $data -ne $right_value ]]
+do
+if[[ $data -lt $right_value ]]
+then
+echo "Guess is low".Try again:"
+read data
+elif[[ $data -gt $right_value ]]
+then
+echo "Guess is too high" Try again:"
+read data
+fi
+done
+echo "Matched" Congrats"
 }
-echo "guess the files number in the current directory!"
-guess
-© 
