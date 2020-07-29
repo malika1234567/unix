@@ -2,6 +2,7 @@
  README : guessingame.sh
         touch README.md
 	echo "Title of the project: The Guessing Game" >> README.md
+	git diff README.md
 	echo "\nThe data and the time at which the make was run:" >> README.md
 	date >> README.md
 	echo "\nThe no.of lines of code contained in guessinggame.sh" >> README.md
