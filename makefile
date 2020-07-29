@@ -1,3 +1,4 @@
+ git commit -m "added README.md"
  README : guessingame.sh
         touch README.md
 	echo "Title of the project: The Guessing Game" >> README.md
