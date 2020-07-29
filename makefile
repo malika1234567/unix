@@ -1,6 +1,6 @@
  all: README.md
  
- README : guessingame.sh
+ README.md : guessingame.sh
         touch README.md
 	echo "# Title of the project: The Guessing Game" > README.md
 	echo -e "\nThe data and the time at which the make was run: $$(date)" >> README.md
