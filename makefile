@@ -1,9 +1,9 @@
- git commit -m "added README.md"
+ git commit -m "added README.txt"
  README : guessingame.sh
-        touch README.md
-	echo "Title of the project: The Guessing Game" >> README.md
-	git diff README.md
-	echo "\nThe data and the time at which the make was run:" >> README.md
-	date >> README.md
-	echo "\nThe no.of lines of code contained in guessinggame.sh" >> README.md
-	cat guessinggame.sh | wc -1 >> README.md
+        touch README.txt
+	echo "Title of the project: The Guessing Game" >> README.txt
+	git diff README.txt
+	echo "\nThe data and the time at which the make was run:" >> README.txt
+	date >> README.txt
+	echo "\nThe no.of lines of code contained in guessinggame.sh" >> README.txt
+	cat guessinggame.sh | wc -1 >> README.txt
